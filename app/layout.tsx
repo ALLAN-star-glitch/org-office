@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "OrgOffice",
     images: [
       {
-        url: "https://org-office.vercel.app/_next/image?url=%2Fcollaboration.jpg&w=3840&q=75",
+        url: "https://org-office.vercel.app/_next/image?url=%2Fbackground.jpg&w=3840&q=75",
         width: 1200,
         height: 630,
         alt: "OrgOffice platform dashboard preview",
