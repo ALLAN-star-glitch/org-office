@@ -32,13 +32,13 @@ const DashboardSidebar: FC<DashboardSidebarProps> = ({
 
       {/* Mobile Sidebar */}
       <div
-        className={`fixed inset-0 z-[100] md:hidden transition-all duration-300 ease-in-out ${
+        className={`fixed inset-0 z-100 md:hidden transition-all duration-300 ease-in-out ${
           isMobileSidebarOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
         {/* Overlay - OrgOffice color w/ opacity */}
         <div
-          className={`absolute inset-0 bg-[#3B82F6]/50 backdrop-blur-sm transition-opacity duration-300 ease-in-out`}
+          className={`absolute inset-0 bg-black/10 transition-opacity duration-300 ease-in-out`}
           onClick={() => setIsMobileSidebarOpen(false)}
         ></div>
 
@@ -76,3 +76,6 @@ const DashboardSidebar: FC<DashboardSidebarProps> = ({
 };
 
 export default DashboardSidebar;
+
+
+
